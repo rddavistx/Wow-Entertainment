@@ -1,0 +1,81 @@
+#hero {
+      background-image: url(../img/wow_logo.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:contain;
+      height: 500px;
+      /*display: table;*/
+      width: 100%;
+      text-align: center;
+}
+
+.fadeInUpBig {
+  animation-duration: 2s;
+}
+
+
+/*#hero>div {
+    display: table-cell;
+    vertical-align: middle;
+}*/
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  color: gray;
+  text-shadow: 3px 3px white;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+margin-left: 240px;
+margin-top: 10px;
+}
+
+.col-lg-4 {
+  float:right;
+}
+
+.services {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.servicesprovided {
+  width: 240px;
+  height: 226px;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: gray;
+  height: 250px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+
+h4>a {
+  color: white;
+}
+
+/*about.html*/
+.about {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 20px;
+  padding-top: 10px;
+}
