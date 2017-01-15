@@ -3,10 +3,11 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size:contain;
-      height: 500px;
+      min-height: 500px;
       /*display: table;*/
       width: 100%;
       text-align: center;
+      background-attachment: fixed;
 }
 
 .fadeInUpBig {
@@ -51,7 +52,7 @@ margin-top: 10px;
 }
 
 .footer {
-  background-color: gray;
+  background-color: #FBFC46;
   height: 250px;
 }
 
@@ -61,12 +62,12 @@ margin-top: 10px;
 
 h4 {
   text-align: center;
-  color: white;
+  color: black;
   padding-top: 15px;
 }
 
 h4>a {
-  color: white;
+  color: black;
 }
 
 /*about.html*/
@@ -78,4 +79,22 @@ h4>a {
 .about-text {
   font-size: 20px;
   padding-top: 10px;
+}
+
+/*contact.html*/
+.contact {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.touch {
+  text-align: center;
+}
+
+.about-page {
+  background-color: gray;
+}
+
+textarea {
+  width: 220px;
 }
