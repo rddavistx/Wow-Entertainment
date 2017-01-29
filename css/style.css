@@ -197,3 +197,12 @@ form {
   column-count:         1;
   }
 }
+.selected img {
+	opacity:0.5;
+}
+
+.list-inline>li {
+  margin-top: 80px;
+  width: 80px;
+  height:60px;
+}
