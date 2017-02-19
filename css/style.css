@@ -15,10 +15,7 @@
 }
 
 
-/*#hero>div {
-    display: table-cell;
-    vertical-align: middle;
-}*/
+
 
 h1 {
   font-family: 'Nunito', sans-serif;
@@ -70,6 +67,14 @@ h4>a {
   color: black;
 }
 
+#calendar {
+  text-align: center;
+}
+
+#calendar-small {
+  display:none;
+}
+
 /*about.html*/
 .about {
   margin-top: 80px;
@@ -106,22 +111,23 @@ h4>a {
   padding-bottom: 40px;
 }
 
-/*contact*/
 #keyboard {
-  width: 100%;
+  background: url(../img/keyboard.jpg);
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+
 }
-
-
-textarea {
-  width: 290px;
+#kb {
+  text-align: center;
 }
 
 input {
-  height: 40px;
+  margin-top: 20px;
 }
 
-form {
-  padding-bottom: 30px;
+textarea {
+  margin-top: 20px;
 }
 
 
@@ -196,7 +202,57 @@ form {
   -webkit-column-count: 1;
   column-count:         1;
   }
+
+  .servicesprovided {
+    display: none;
+  }
+  .animated {
+  font-size: 36px;
+  }
+
+  #hero {
+    background-attachment: inherit;
+    min-height: 80px;
+  }
+
+  .container>.navbar-header {
+    margin-right:auto;
+  }
+  .title {
+    margin-left: auto;
+  }
+  #calendar-small {
+    display:block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #calendar {
+    display: none;
+  }
+  .about {
+    margin-top: 10px;
+  }
+  .about-bg {
+    background: none;
+  }
+  .about-text {
+    padding: 50px 10px;
+  }
+
+  .contact {
+    font-size: 10px;
+  }
+  .touch {
+    font-size: 10px;
+  }
+
 }
+
+
+
+
+
 .selected img {
 	opacity:0.5;
 }
@@ -205,4 +261,10 @@ form {
   margin-top: 80px;
   width: 80px;
   height:60px;
+}
+
+@media only screen and (max-width : 480px) {
+#keyboard {
+  display: none;
+}
 }
