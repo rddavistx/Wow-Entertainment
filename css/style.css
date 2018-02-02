@@ -1,5 +1,7 @@
 #hero {
-      background-image: url(../img/wow_logo.jpg);
+      /* background-image: url(../img/wow_logo.jpg); */
+      /* background-image: url(../img/party-1644648_1920.jpg); */
+      position:relative;
       background-position: center;
       background-repeat: no-repeat;
       background-size:contain;
@@ -14,30 +16,50 @@
   animation-duration: 2s;
 }
 
+#banner {
+  position: absolute;
+  text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
 
 
 
 h1 {
-  font-family: 'Nunito', sans-serif;
-  color: gray;
-  text-shadow: 3px 3px white;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  /* text-shadow: 3px 3px white; */
   font-size: 80px;
   text-align: center;
   margin-top: 50px;
 }
 
-.title {
-margin-left: 240px;
-margin-top: 10px;
+.icon {
+  width:100px;
+  margin-bottom: 20px;
 }
 
-.col-lg-4 {
+/* .title {
+margin-left: 240px;
+margin-top: 10px;
+} */
+
+/* .col-lg-4 {
   float:right;
+} */
+
+.title {
+  margin-bottom: 20px;
+  color: #fece00;
 }
 
 .services {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .servicesprovided {
@@ -49,12 +71,15 @@ margin-top: 10px;
 }
 
 .footer {
-  background-color: #FBFC46;
+  background-color: #0375b4;
   height: 250px;
 }
 
 .description {
   font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+
 }
 
 h4 {
