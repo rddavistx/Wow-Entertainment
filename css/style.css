@@ -41,6 +41,11 @@ h1 {
   margin-bottom: 20px;
 }
 
+.party {
+  width:100%;
+  min-height: 540px;
+}
+
 /* .title {
 margin-left: 240px;
 margin-top: 10px;
@@ -226,6 +231,14 @@ textarea {
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
+  }
+
+  .party {
+    min-height: 300px;
+  }
+
+  .icon-credit {
+    display:none;
   }
 
   .servicesprovided {
