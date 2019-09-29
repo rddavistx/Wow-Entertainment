@@ -23,6 +23,19 @@
     width: 100%;
 }
 
+.navbar-default {
+  background-color: white;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: darkslategray;
+}
+
+.navbar-default .navbar-brand {
+    color: darkslategray;
+}
+
 
 
 
@@ -117,15 +130,12 @@ h4>a {
   font-size: 18px;
   padding: 50px;
   background-color: white;
-  margin-left: 50px;
-  margin-bottom: -10px;
+  /* margin-left: 50px; */
+  margin-bottom: 0px;
 }
 
 .about-bg {
-  background: url(../img/rainbow_background-t2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: -60px;
+  background-color: #b44203;
 
 
 }
@@ -141,24 +151,29 @@ h4>a {
   padding-bottom: 40px;
 }
 
-#keyboard {
-  background: url(../img/keyboard.jpg);
-  width: 200px;
-  height: 200px;
+/* #keyboard {
+  background: url(../img/keyboard2.jpg);
+   width: 200px;
+   height: 200px;
   margin-top: 20px;
 
-}
-#kb {
-  text-align: center;
-}
+} */
 
-input {
+.keyboard {
+  width:100%;
+  padding-bottom: 20px;
+}
+/* #kb {
+  text-align: center;
+} */
+
+/* input {
   margin-top: 20px;
 }
 
 textarea {
   margin-top: 20px;
-}
+} */
 
 
 /*clients*/
@@ -176,9 +191,23 @@ textarea {
   width: 100px;
 }
 
+.img-responsive {
+  height: 250px;
+  margin: auto;
+  margin-top: 50px;
+}
+
 /*testimonial*/
 #testify {
   padding-top: 80px;
+}
+
+blockquote {
+    border-left: 5px solid red;
+}
+
+.footer >h4 {
+  margin-top: 0px;
 }
 
 
@@ -271,9 +300,9 @@ textarea {
   .about {
     margin-top: 10px;
   }
-  .about-bg {
+  /* .about-bg {
     background: none;
-  }
+  } */
   .about-text {
     padding: 50px 10px;
   }
