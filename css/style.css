@@ -11,6 +11,10 @@
       text-align: center;
       background-attachment: fixed;
 }
+.title {
+
+  padding-top: 50px;
+}
 
 .fadeInUpBig {
   animation-duration: 2s;
@@ -91,6 +95,7 @@ margin-top: 10px;
 .footer {
   background-color: #0375b4;
   height: 250px;
+  padding-top: 50px;
 }
 
 .description {
