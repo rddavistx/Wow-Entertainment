@@ -94,8 +94,14 @@ margin-top: 10px;
 
 .footer {
   background-color: #0375b4;
-  height: 250px;
+  height: auto;
   padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.icon-credit {
+  position: absolute;
+  bottom: 0;
 }
 
 .description {
